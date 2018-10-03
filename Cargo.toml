@@ -1,0 +1,12 @@
+[package]
+name = "rscan"
+version = "0.1.0"
+authors = ["mylamour <mylamour@163.com>"]
+
+[dependencies]
+clap = "2"
+log = "0.4"
+env_logger = "0.5"
+lazy_static = "1.1.0"
+regex = "1"
+slog = "2.4.0"
