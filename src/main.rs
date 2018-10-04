@@ -99,7 +99,7 @@ fn main() {
         print!("\n\tOpening:");
         if !openports.is_empty() {
             for _open in openports {
-                print!("{}",_open);
+                print!("{} ",_open);
             }
         }else{
             print!("None");
